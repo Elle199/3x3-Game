@@ -1,0 +1,6 @@
+c:\users\ellio\documents\visual studio 2015\Projects\1x2\1x2\bin\Debug\1x2.exe.config
+C:\Users\ellio\Documents\Visual Studio 2015\Projects\1x2\1x2\obj\Debug\1x2.csprojResolveAssemblyReference.cache
+C:\Users\ellio\Documents\Visual Studio 2015\Projects\1x2\1x2\bin\Debug\1x2.exe
+C:\Users\ellio\Documents\Visual Studio 2015\Projects\1x2\1x2\bin\Debug\1x2.pdb
+C:\Users\ellio\Documents\Visual Studio 2015\Projects\1x2\1x2\obj\Debug\1x2.exe
+C:\Users\ellio\Documents\Visual Studio 2015\Projects\1x2\1x2\obj\Debug\1x2.pdb

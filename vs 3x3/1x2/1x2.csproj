@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Player\Player.cs" />
-    <Compile Include="Player\Playerlist.cs" />
     <Compile Include="Position\Location.cs" />
     <Compile Include="Position\Position.cs" />
     <Compile Include="Game.cs" />

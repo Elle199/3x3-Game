@@ -8,6 +8,7 @@ namespace _1x2
 {
     class Position
     {
+
         private int position1;
         private int position2;
 
@@ -28,6 +29,7 @@ namespace _1x2
                     position1 = value;
             }
         }
+
         public int Position2
         {
             get { return position2; }

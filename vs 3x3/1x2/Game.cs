@@ -8,47 +8,31 @@ namespace _1x2
 {
     class Game
     {
-        static string[,] location = new string[3, 3];
+        static string[,] gameboard = new string[3, 3];
         List<Position> positions = new List<Position>();
         public static void Run()
         {
+            Location player = new Location();
             int winner = 0;
             Console.Clear();
             while(winner != 1)
             {
-                for (int i = 0; i < location.GetLength(0); i += 1)
+                Console.WriteLine("Player 1: ");
+                player.newPosP1();
+                gameboard[1, 2] = "x";
+                Console.Clear();
+                Console.WriteLine("Player 2: ");
+                player.newPosP2();
+                gameboard[0, 2] = "o";
+                Console.Clear();
+                for (int i = 0; i < gameboard.GetLength(0); i++)
                 {
-                    for (int l = 0; l < location.GetLength(1); i += 1)
+                    Console.WriteLine("");
+                    for (int l = 0; l < gameboard.GetLength(1); l++)
                     {
-                        Console.WriteLine(location[i, l]);
+                        Console.Write(gameboard[l , i]);
                     }
                 }
-            }
-        }
-
-        public static void WinCheck()
-        {
-            if (location[0,0] == "x" && location[1,0] == "x" && location[2, 0] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
-            }else if (location[0, 1] == "x" && location[1, 1] == "x" && location[2, 1] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
-            }else if (location[0, 2] == "x" && location[1, 2] == "x" && location[2, 2] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
-            }
-            else if (location[0, 0] == "x" && location[0, 1] == "x" && location[0, 2] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
-            }
-            else if (location[0, 1] == "x" && location[1, 1] == "x" && location[2, 1] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
-            }
-            else if (location[0, 2] == "x" && location[1, 2] == "x" && location[2, 2] == "x")
-            {
-                Console.WriteLine("Player 1 wins");
             }
         }
     }

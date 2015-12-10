@@ -23,7 +23,7 @@ namespace _1x2
             get { return position1; }
             set
             {
-                if (value < 0 || value > 3)
+                if (value < 0 || value > 2)
                     Console.WriteLine("Sorry, value is not corect");
                 else
                     position1 = value;
@@ -35,7 +35,7 @@ namespace _1x2
             get { return position2; }
             set
             {
-                if (value < 0 || value > 3)
+                if (value < 0 || value > 2)
                     Console.WriteLine("Sorry, value is not corect");
                 else
                     position2 = value;

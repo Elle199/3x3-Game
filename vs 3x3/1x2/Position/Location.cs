@@ -9,7 +9,7 @@ namespace _1x2
     class Location
     {
         List<Position> Player1 = new List<Position>();
-        List<Position> Player2 = new List<Position>();
+        //List<Position> Player2 = new List<Position>();
         Position newPlayer1;
         Position newPlayer2;
         public void newPosP1()
@@ -22,7 +22,7 @@ namespace _1x2
             Player1.Add(newPlayer1);
         }
 
-        public void newPosP2()
+        /*public void newPosP2()
         {
             Console.Write("X-pos: ");
             int xpos = Convert.ToInt32(Console.ReadLine());
@@ -30,6 +30,6 @@ namespace _1x2
             int ypos = Convert.ToInt32(Console.ReadLine());
             newPlayer2 = new Position(xpos, ypos);
             Player2.Add(newPlayer2);
-        }
+        }*/
     }
 }

@@ -17,7 +17,7 @@ namespace _1x2
                 Console.WriteLine("Tree i rad");
                 Console.WriteLine("==========");
                 Console.WriteLine("1. New Game");
-                Console.WriteLine("2. Continue Game");
+                Console.WriteLine("2. Continue Game (Not implemented)");
                 Console.WriteLine("0. Exit");
                 menuChoice = Convert.ToInt32(Console.ReadLine());
                 if (menuChoice == 1)
